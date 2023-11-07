@@ -27,19 +27,19 @@
           <section class="form">
             <h5>Pilih Jenis Kelamin : </h5>
 
-            <input type="radio" id="pria" name="kelamin" value="pria" />
+            <input type="radio" id="pria" name="kelamin" value="pria" data-cy="option" />
             <label for="pria">Pria</label>
-            <input type="radio" id="wanita" name="kelamin" value=" Wanita">
+            <input type="radio" id="wanita" name="kelamin" data-cy="option" value=" Wanita">
             <label for="wanita">Wanita</label>
             <p>Berat Badan (kg)</p>
-            <input type="number" id="berat" placeholder="Masukkan berat badan anda">
+            <input type="number" id="berat" data-cy="berat" placeholder="Masukkan berat badan anda">
             <p>Usia (Tahun)</p>
-            <input type="number" id="age" placeholder="Masukkan Usia Anda!">
+            <input type="number" id="age" data-cy="age" placeholder="Masukkan Usia Anda!">
             <p>Tinggi Badan (cm)</p>
-            <input type="number" id="tinggi" placeholder="Masukkan Tinggi badan Anda">
+            <input type="number" id="tinggi" data-cy="tinggi" placeholder="Masukkan Tinggi badan Anda">
             <br>
-            <button type="button" id="hitung" class="hitung">Hitung BMI</button>
-            <button type="button" id="reset" class="reset">Reset</button>
+            <button type="button" id="hitung" data-cy="hitung" class="hitung">Hitung BMI</button>
+            <button type="button" id="reset" class="reset" data-cy="reset">Reset</button>
           </section>
         </main>
         <section class="describe">
@@ -66,14 +66,14 @@
           <h1 class="head">Hasil : </h1>
           <hr>
 
-          <p id="result" class="hasil"></p>
+          <p id="result" class="hasil" data-cy="hasil"></p>
 
-          <p id="keterangan" class="keterangan"></p>
+          <p id="keterangan" class="keterangan" data-cy="keterangan"></p>
         </div>
         <div class="bmi-cons">
           <p class="head-konsul">ingin konsultasi ?</p>
-          <button id="konsul" class="konsul">Konsultasi Online (mobile App)</button>
-          <button id="konsul2" class="konsul">Registrasi Online ahli gizi</button>
+          <button id="konsul" class="konsul" data-cy="konsul">Konsultasi Online (mobile App)</button>
+          <button id="konsul2" class="konsul" data-cy="konsul2">Registrasi Online ahli gizi</button>
         </div>
       </section>
     </div>

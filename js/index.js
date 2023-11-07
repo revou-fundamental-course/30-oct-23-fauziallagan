@@ -7,7 +7,7 @@ document.getElementById('hitung').addEventListener('click', function () {
   let keterangan = document.getElementById('keterangan');
 
   let bmi = beratB / (tinggiB * tinggiB);
-  result.textContent = bmi.toFixed(2) + ' KG';
+  result.textContent = bmi.toFixed(2) + ' kg';
   console.log(bmi);
 
   if(bmi < 18.5) {
@@ -40,5 +40,4 @@ document.getElementById('konsul').addEventListener('click', function () {
 })
 document.getElementById('konsul2').addEventListener('click', function () {
   alert("Comming Soon");
-
 })
