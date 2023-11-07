@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <h1 class="welcome">Welcome to Kalkulator BMI</h1>
+    <div class="container">
+      <section class="side">
+        <header>
+          <h4>Introduction About Kalkulator BMI</h4>
+          <br>
+          <p class="des-u">Berat badan ideal adalah impian semua orang. Tidak hanya Memiliki bentuk tubuh yang menunjang
+            penampilan,
+            berat
+            badan ideal juga menandakan kondisi tubuh yang sehat. bagaimana dengan mu? Yuk Hitung Sekarang dengan
+            kalkulator
+            BMI</p>
+        </header>
+
+        <main>
+          <section class="form">
+            <h5>Pilih Jenis Kelamin : </h5>
+
+            <input type="radio" id="pria" name="kelamin" value="pria" />
+            <label for="pria">Pria</label>
+            <input type="radio" id="wanita" name="kelamin" value=" Wanita">
+            <label for="wanita">Wanita</label>
+            <p>Berat Badan (kg)</p>
+            <input type="number" id="berat" placeholder="Masukkan berat badan anda">
+            <p>Usia (Tahun)</p>
+            <input type="number" id="age" placeholder="Masukkan Usia Anda!">
+            <p>Tinggi Badan (cm)</p>
+            <input type="number" id="tinggi" placeholder="Masukkan Tinggi badan Anda">
+            <br>
+            <button type="button" id="hitung" class="hitung">Hitung BMI</button>
+            <button type="button" id="reset" class="reset">Reset</button>
+          </section>
+        </main>
+        <section class="describe">
+          <p>keunggulan fitur</p>
+          <br>
+          <ol>
+            <li>menghitung berat badan</li>
+            <li>menentukan kategori berat badan ideal atau tidak</li>
+            <li>mempersiapkan program penurunan berat badan</li>
+          </ol>
+          <div class="info">
+            <h5 class="myInfo">Information!</h5>
+            <p class="des-info">kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak
+              boleh
+              mengandalkan
+              kalkulator ini.) dan tidak ada tindakan yang harus diambil berdasarkan penilainnya selain berkonsultasi
+              dengan orang yang memenuhi syarat seperti dokter</p>
+          </div>
+        </section>
+      </section>
+      <section class="side">
+        <div class="result">
+          <!-- Result -->
+          <h1 class="head">Hasil : </h1>
+          <hr>
+
+          <p id="result" class="hasil"></p>
+
+          <p id="keterangan" class="keterangan"></p>
+        </div>
+        <div class="bmi-cons">
+          <p class="head-konsul">ingin konsultasi ?</p>
+          <button id="konsul" class="konsul">Konsultasi Online (mobile App)</button>
+          <button id="konsul2" class="konsul">Registrasi Online ahli gizi</button>
+        </div>
+      </section>
+    </div>
+  </body>
+
+
+  <script src=" js/index.js"> </script>
+
+</html>

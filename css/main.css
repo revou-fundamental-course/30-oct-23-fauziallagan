@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+
+.container {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input[type=number] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+input[type=number]:focus {
+  background-color: #ffd969;
+  border-color: #000;
+  /* // and any other style */
+}
+
+input[type=radio] {
+  margin: 5% 0 5% 2%;
+}
+
+.side {
+
+  width: 100%;
+  max-width: 650px;
+  min-height: 300px;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+.describe {
+  padding-top: 4%;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 2%; */
+  padding: 4% 2% 4% 10%;
+  /* padding-bottom: 4%; */
+}
+
+.info {
+  border-radius: 20px;
+  padding-top: 2%;
+  margin-top: 3%;
+  background-color: #48ccddc2;
+}
+
+.des-u {
+  text-align: justify;
+}
+
+.myInfo {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.des-info {
+  text-align: justify;
+  margin: 0 4% 0 4%;
+  padding-bottom: 4%;
+
+}
+
+.konsul {
+  margin-left: 10%;
+  color: white;
+  background-color: rgb(102, 187, 187);
+}
+
+.konsul:hover {
+  background-color: rgb(42, 212, 212);
+}
+
+.bmi-cons {
+  background-color: rgba(240, 248, 255, 0.5);
+  padding-top: 5%;
+  margin-top: 10%;
+  padding-bottom: 4%;
+  border-radius: 40px;
+}
+
+.head-konsul {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+main {
+  border-radius: 20px;
+  margin-top: 10%;
+  background-color: rgba(163, 169, 175, 0.425)
+}
+
+.result {
+  border-radius: 40px;
+  width: 100%;
+  background-color: antiquewhite;
+
+}
+
+.head {
+  padding-top: 5%;
+}
+
+button {
+  margin-left: 5%;
+  margin-right: auto;
+  width: 200px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 4%;
+}
+
+button.hitung {
+  color: white;
+  background-color: rgb(102, 187, 187);
+}
+
+button.hitung:hover {
+  color: white;
+  background-color: rgb(56, 214, 214);
+}
+
+button.reset:hover {
+  background-color: red;
+}
+
+button.reset {
+  background-color: rgba(173, 57, 57, 0.692);
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.result {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.hasil {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.keterangan {
+  /* padding-top: 2%; */
+  font-size: 30px;
+  padding-bottom: 2%;
+}
