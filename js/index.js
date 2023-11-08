@@ -1,5 +1,5 @@
 let reset = document.getElementById('reset');
-document.getElementById('hitung').addEventListener('click', function () {
+document.getElementById('hitung').addEventListener('click', () => {
 
   let beratB = parseFloat(document.getElementById('berat').value);
   let result = document.getElementById('result');
@@ -10,7 +10,7 @@ document.getElementById('hitung').addEventListener('click', function () {
   result.textContent = bmi.toFixed(1) + ' kg';
   console.log(bmi);
 
-  if(bmi < 18.5) {
+  if(bmi <= 18.5) {
     keterangan.textContent = 'Keterangan : kurang berat badan';
   }
   else if(bmi >= 18.5 && bmi <= 24.9) {
@@ -34,11 +34,11 @@ reset.addEventListener('click', () => {
   document.getElementById('age').value = '';
 })
 
-document.getElementById('konsul').addEventListener('click', function () {
+document.getElementById('konsul').addEventListener('click', () => {
   alert("Comming Soon");
 
 })
-document.getElementById('konsul2').addEventListener('click', function () {
+document.getElementById('konsul2').addEventListener('click', () => {
   alert("Comming Soon");
 })
 
