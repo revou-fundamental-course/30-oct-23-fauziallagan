@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #F1EAFF;
+}
+
 .container {
   margin-top: 5%;
   display: flex;
@@ -55,11 +59,19 @@ input[type=radio] {
   /* padding-bottom: 4%; */
 }
 
+.foo {
+  text-decoration: none;
+}
+
+.foo:hover {
+  background-color: rgb(42, 212, 212);
+}
+
 .info {
   border-radius: 20px;
   padding-top: 2%;
   margin-top: 3%;
-  background-color: #48ccddc2;
+  background-color: #E5D4FF;
 }
 
 .des-u {
@@ -82,8 +94,8 @@ input[type=radio] {
 
 .konsul {
   margin-left: 10%;
-  color: white;
-  background-color: rgb(102, 187, 187);
+  color: rgb(27, 26, 26);
+  background-color: #DCBFFF
 }
 
 .konsul:hover {
@@ -91,7 +103,7 @@ input[type=radio] {
 }
 
 .bmi-cons {
-  background-color: rgba(240, 248, 255, 0.5);
+  background-color: #E5D4FF;
   padding-top: 5%;
   margin-top: 10%;
   padding-bottom: 4%;
@@ -104,21 +116,27 @@ input[type=radio] {
 
 }
 
+.dark {
+  background-color: black;
+  color: white;
+}
+
 main {
   border-radius: 20px;
   margin-top: 10%;
-  background-color: rgba(163, 169, 175, 0.425)
+  background-color: #E5D4FF;
 }
 
 .result {
   border-radius: 40px;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: #E5D4FF;
 
 }
 
 .head {
   padding-top: 5%;
+  padding-bottom: 1%;
 }
 
 button {
@@ -172,4 +190,12 @@ hr {
   /* padding-top: 2%; */
   font-size: 30px;
   padding-bottom: 2%;
+}
+
+footer {
+  font-weight: bold;
+  /* margin-top: 2%; */
+  text-align: center;
+  padding: 2%;
+  background-color: #D0A2F7;
 }
